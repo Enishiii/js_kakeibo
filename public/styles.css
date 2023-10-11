@@ -1,0 +1,33 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f3f4f6;
+    margin: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-item {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
